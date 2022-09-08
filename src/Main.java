@@ -1,4 +1,6 @@
+import java.util.*;
 public class Main {
+
 
     //constructor:클래스 초기화
     public Main(){
@@ -35,5 +37,8 @@ public class Main {
 
         main.calculate2(param1,param2);
 
+        Scanner scanner = new Scanner(System.in);
+        int i = scanner.nextInt();
+        System.out.println("출력:"+i);
     }
 }
